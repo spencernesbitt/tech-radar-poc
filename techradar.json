@@ -1,0 +1,504 @@
+{
+    "title": "Spencer's Test Tech Radar",
+    "quadrants": [
+        {
+            "id": "1",
+            "name": "Infrastructure"
+        },
+        {
+            "id": "2",
+            "name": "Frameworks"
+        },
+        {
+            "id": "3",
+            "name": "Languages"
+        },
+        {
+            "id": "4",
+            "name": "Process"
+        }
+    ],
+    "rings": [
+        {
+            "id": "adopt",
+            "name": "ADOPT",
+            "color": "#93c47d"
+        },
+        {
+            "id": "trial",
+            "name": "TRIAL",
+            "color": "#93d2c2"
+        },
+        {
+            "id": "assess",
+            "name": "ASSESS",
+            "color": "#fbdb84"
+        },
+        {
+            "id": "hold",
+            "name": "HOLD",
+            "color": "#efafa9"
+        }
+    ],
+    "entries": [
+        {
+            "id": "svix",
+            "title": "Svix Web-hooks SaaS Platform",
+            "description": "Svix makes sending webhooks easy and reliable by offering webhook sending as a service. With Svix you can start sending webhooks in minutes, while ensuring robust deliverability, and a great developer experience for your users.",
+            "key": "svix",
+            "url": "https://docs.svix.com/",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2025-01-01",
+                    "description": "This technology is being assessed as a solution to the problem of sharing data externally with Partners and Clients."
+                }
+            ]
+        },
+        {
+            "id": "open-fga",
+            "title": "OpenFGA",
+            "description": "OpenFGA is an open-source authorization solution that allows developers to build granular access control using an easy-to-read modeling language and friendly APIs.",
+            "key": "open-fga",
+            "url": "https://openfga.dev/",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2025-01-01",
+                    "description": "This technology is being assessed, both in a self-hosted model and vai Auth0's Saas offering, as a solution to the Group's need for a performant, flexible and centralized permissioning service."
+                }
+            ]
+        },
+        {
+            "id": "ruby-on-rails",
+            "title": "Ruby on Rails",
+            "description": "A server-side web application framework written in the Ruby programming language. It's a full-stack framework, meaning it provides tools for both the front-end (user interface) and back-end (database and application logic) development of web applications.",
+            "key": "ruby-on-rails",
+            "url": "https://rubyonrails.org/",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "hold",
+                    "date": "2025-01-01",
+                    "description": "The Transitions Management System (TMS) is 'Rails' based but the lack of commercial experience of developing in this framework and the Ruby language in general makes it hard to support."
+                }
+            ]
+        },
+        {
+            "id": "minimal-api",
+            "title": "ASP.NET Core Minimal APIs",
+            "description": "Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET Core.",
+            "key": "minimal-api",
+            "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-9.0",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2025-01-01",
+                    "description": "Class looking into the constraints of HDS in the Class environment. Features such as versioning may need to be implemented before moving to the Trial phase."
+                }
+            ]
+        },
+        {
+            "id": "hds",
+            "title": "Hub24 Design System",
+            "description": "An enterprise design system is a set of guidelines, principles, and patterns for designing and building consistent and engaging  digital touch points across the HUB24 Group. It will provide a shared language and standardised approach to consistently deliver cohesive digital experiences.",
+            "key": "hds",
+            "url": "https://hub24limited.atlassian.net/wiki/spaces/PDUX/pages/6636210724/HUB+DS+-+Enterprise+design+system",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2025-01-01",
+                    "description": "Currently in use at NowInfinity. Anywhere else? A cursory review suggests support from code generation tools such as openapi-generator is sparse, but this probably not sufficient reason to hold off adoption. "
+                }
+            ]
+        },
+        {
+            "id": "typescript",
+            "title": "Typescript",
+            "description": "Long description for Typescript",
+            "key": "typescript",
+            "url": "#",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-02-08",
+                    "description": "Long description for adopt"
+                },
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2022-02-06",
+                    "description": "Long description for trial"
+                }
+            ]
+        },
+        {
+            "id": "csharp",
+            "title": "C#",
+            "description": "Microsoft C#",
+            "key": "C#",
+            "url": "#",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2019-02-06",
+                    "description": "Coincide with dotNET adoption"
+                }
+            ]
+        },
+        {
+            "id": "java",
+            "title": "Java",
+            "description": "Long description for Typescript",
+            "key": "Java",
+            "url": "#",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2019-02-06",
+                    "description": "Java adoption"
+                }
+            ]
+        },
+        {
+            "id": "go",
+            "title": "Go",
+            "description": "Go Lang",
+            "key": "Go",
+            "url": "#",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2019-02-06",
+                    "description": "Go adoption"
+                }
+            ]
+        },
+        {
+            "id": "python",
+            "title": "Python",
+            "description": "Long description for Python",
+            "key": "Python",
+            "url": "#",
+            "quadrant": "3",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2019-02-06",
+                    "description": "dotNET adoption"
+                }
+            ]
+        },
+
+        {
+            "id": "k8s",
+            "title": "Kubernetes GKE",
+            "description": "Kubernetes on GCP - Google Kubernetes Engine (GKE)",
+            "key": "K8s GKE",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2021-11-30",
+                    "description": "Adoption of Kubernetes"
+                },
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2020-02-06",
+                    "description": "Early trial and assessment of Kubernetes on GCP"
+                }
+            ]
+        },
+        {
+            "id": "azure",
+            "title": "Microsoft Azure",
+            "description": "Azure cloud services. nb this is not ADO.",
+            "key": "azure",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "hold",
+                    "date": "2021-11-30",
+                    "description": "Reduce use in favour of GCP or AWS"
+                },
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2016-01-01",
+                    "description": "Early use of Microsoft Azure for app services"
+                }
+            ]
+        },
+        {
+            "id": "aws",
+            "title": "AWS",
+            "description": "Amazon Web Services cloud",
+            "key": "aws",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2019-02-06",
+                    "description": "Inherited with CLASS acquisition."
+                }
+            ]
+        },
+        {
+            "id": "ecs",
+            "title": "AWS-ECS",
+            "description": "AWS Elastic Container Service",
+            "key": "ecs",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01",
+                    "description": "Inherited with AWS."
+                }
+            ]
+        },
+        {
+            "id": "eks",
+            "title": "AWS-EKS",
+            "description": "AWS managed elastic Kubernetes service",
+            "key": "eks",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01",
+                    "description": "Inherited with AWS."
+                }
+            ]
+        },
+        {
+            "id": "grid",
+            "title": "The Grid",
+            "description": "Internal on-prem infrastructure environment",
+            "key": "grid",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "assess",
+                    "date": "2023-06-30",
+                    "description": "Evaluating Grid refresh."
+                },
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2010-01-01",
+                    "description": "Initial operational setup for HUB Platform."
+                }
+            ]
+        },
+        {
+            "id": "dbx",
+            "title": "Databricks",
+            "description": "Databricks on GCP",
+            "key": "Databricks GCP",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-02-06",
+                    "description": "Adoption of Databricks"
+                }
+            ]
+        },
+        {
+            "id": "ado",
+            "title": "ADO",
+            "description": "Azure DevOps",
+            "key": "ado",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2015-01-01",
+                    "description": "Adoption of Azure DevOps"
+                }
+            ]
+        },
+        {
+            "id": "githubactions",
+            "title": "Github Actions",
+            "description": "Github Actions ci/cd",
+            "key": "githubactions",
+            "url": "#",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2015-01-01",
+                    "description": "Adoption of github actions"
+                }
+            ]
+        },
+        {
+            "id": "dotnet",
+            "title": ".NET",
+            "description": "Cross-platform .NET previously known as .NET Core",
+            "key": ".NET",
+            "url": "#",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2019-01-01",
+                    "description": "dotNET adoption"
+                }
+            ]
+        },
+        {
+            "id": "dotnetframework",
+            "title": ".NET Framework",
+            "description": "Microsoft .NET Framework - Original .NET - being deprecated.",
+            "key": ".NET Framework",
+            "url": "#",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "hold",
+                    "date": "2020-01-01",
+                    "description": ".NET framework - limit dev to maintenance only"
+                },
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2010-01-01",
+                    "description": ".NET framework adoption"
+                }
+            ]
+        },
+        {
+            "id": "pyspark",
+            "title": "Pyspark",
+            "description": "Pyspark/Dataframes",
+            "key": "pyspark",
+            "url": "#",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01",
+                    "description": "Adoption of Databricks."
+                }             
+            ]
+        },
+        {
+            "id": "react",
+            "title": "React",
+            "description": "React JavaScript library",
+            "key": "react",
+            "url": "#",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2022-01-01",
+                    "description": "Adoption of React."
+                }             
+            ]
+        },        
+        {
+            "id": "vuejs",
+            "title": "Vue.js",
+            "description": "Vue.js JavaScript framework",
+            "key": "vueja",
+            "url": "#",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2018-01-01",
+                    "description": "Adoption of Vue."
+                }             
+            ]
+        },        
+        {
+            "id": "outsystems",
+            "title": "Outsystems",
+            "description": "Outsystems",
+            "key": "Outsystems",
+            "url": "#",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "adopt",
+                    "date": "2022-01-01",
+                    "description": "Adoption of Outsystems"
+                },
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2020-01-01",
+                    "description": "Early trial and assessment"
+                }                
+            ]
+        },
+        {
+            "id": "safe",
+            "title": "SAFe",
+            "description": "Scaled Agile Framework",
+            "key": "safe",
+            "url": "#",
+            "quadrant": "4",
+            "timeline": [
+                {
+                    "moved": 1,
+                    "ringId": "hold",
+                    "date": "2024-06-30",
+                    "description": "Reduce use in favour of team choices"
+                },
+                {
+                    "moved": 0,
+                    "ringId": "adopt",
+                    "date": "2016-01-01",
+                    "description": "Early use and adoption of SAFe"
+                }
+            ]
+        }
+    ]
+}
