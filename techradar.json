@@ -42,7 +42,23 @@
     ],
     "entries": [
         {
-            "id": "",
+            "id": "open-telemetry",
+            "title": "OpenTelemetry",
+            "description": "An observability framework and toolkit designed to facilitate the Generation, Export, Collection of telemetry data such as traces, metrics, and logs.",
+            "key": "open-telemetry",
+            "url": "https://opentelemetry.io/docs/what-is-opentelemetry/",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2025-01-01",
+                    "description": "This technology is being trialed across a number of Class services."
+                }
+            ]
+        },
+        {
+            "id": "amazon-aurora",
             "title": "Amazon Aurora - Relational Database SaaS",
             "description": "Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility.",
             "key": "amazon-aurora",
