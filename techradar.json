@@ -42,12 +42,28 @@
     ],
     "entries": [
         {
+            "id": "amazon-aurora",
+            "title": "Amazon Aurora - Relational Database SaaS",
+            "description": "Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility.",
+            "key": "https://aws.amazon.com/rds/aurora/",
+            "url": "https://www.prequel.co/",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trail",
+                    "date": "2025-01-01",
+                    "description": "This technology is being trialed for the Class SMSF application to improve performance and scalability."
+                }
+            ]
+        },
+        {
             "id": "prequel",
             "title": "Prequel Data Export Platform",
             "description": "Platform for allowing partners/clients access to our 'data warehouse'. Prequel transfers data by connecting directly to the data stores, and efficiently moving data from source to destination.",
             "key": "prequel",
             "url": "https://www.prequel.co/",
-            "quadrant": "2",
+            "quadrant": "1",
             "timeline": [
                 {
                     "moved": 0,
@@ -63,7 +79,7 @@
             "description": "Svix makes sending webhooks easy and reliable by offering webhook sending as a service. With Svix you can start sending webhooks in minutes, while ensuring robust deliverability, and a great developer experience for your users.",
             "key": "svix",
             "url": "https://docs.svix.com/",
-            "quadrant": "2",
+            "quadrant": "1",
             "timeline": [
                 {
                     "moved": 0,
@@ -79,13 +95,13 @@
             "description": "OpenFGA is an open-source authorization solution that allows developers to build granular access control using an easy-to-read modeling language and friendly APIs.",
             "key": "open-fga",
             "url": "https://openfga.dev/",
-            "quadrant": "2",
+            "quadrant": "1",
             "timeline": [
                 {
                     "moved": 0,
                     "ringId": "assess",
                     "date": "2025-01-01",
-                    "description": "This technology is being assessed, both in a self-hosted model and vai Auth0's Saas offering, as a solution to the Group's need for a performant, flexible and centralized permissioning service."
+                    "description": "This technology is being assessed, both in a self-hosted model and via Auth0's SaaS offering, as a solution to the Group's need for a performant, flexible and centralized permissioning service."
                 }
             ]
         },
@@ -111,7 +127,7 @@
             "description": "Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET Core.",
             "key": "minimal-api",
             "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-9.0",
-            "quadrant": "2",
+            "quadrant": "3",
             "timeline": [
                 {
                     "moved": 0,
@@ -408,7 +424,7 @@
             "description": "Microsoft .NET Framework - Original .NET - being deprecated.",
             "key": ".NET Framework",
             "url": "#",
-            "quadrant": "2",
+            "quadrant": "3",
             "timeline": [
                 {
                     "moved": 1,
