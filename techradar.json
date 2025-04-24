@@ -42,12 +42,28 @@
     ],
     "entries": [
         {
+            "id": "prequel",
+            "title": "Prequel Data Export Platform",
+            "description": "Platform for allowing partners/clients access to our 'data warehouse'. Prequel transfers data by connecting directly to the data stores, and efficiently moving data from source to destination.",
+            "key": "prequel",
+            "url": "https://www.prequel.co/",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2025-01-01",
+                    "description": "This technology is being assessed as a solution to the problem of sharing data externally with Partners and Clients."
+                }
+            ]
+        },
+        {
             "id": "svix",
             "title": "Svix Web-hooks SaaS Platform",
             "description": "Svix makes sending webhooks easy and reliable by offering webhook sending as a service. With Svix you can start sending webhooks in minutes, while ensuring robust deliverability, and a great developer experience for your users.",
             "key": "svix",
             "url": "https://docs.svix.com/",
-            "quadrant": "3",
+            "quadrant": "2",
             "timeline": [
                 {
                     "moved": 0,
@@ -63,7 +79,7 @@
             "description": "OpenFGA is an open-source authorization solution that allows developers to build granular access control using an easy-to-read modeling language and friendly APIs.",
             "key": "open-fga",
             "url": "https://openfga.dev/",
-            "quadrant": "3",
+            "quadrant": "2",
             "timeline": [
                 {
                     "moved": 0,
@@ -101,7 +117,7 @@
                     "moved": 0,
                     "ringId": "assess",
                     "date": "2025-01-01",
-                    "description": "Class looking into the constraints of HDS in the Class environment. Features such as versioning may need to be implemented before moving to the Trial phase."
+                    "description": "Currently in use at NowInfinity. Anywhere else? A cursory review suggests support from code generation tools such as openapi-generator is sparse, but this probably not sufficient reason to hold off adoption."
                 }
             ]
         },
@@ -115,9 +131,9 @@
             "timeline": [
                 {
                     "moved": 0,
-                    "ringId": "trial",
+                    "ringId": "assess",
                     "date": "2025-01-01",
-                    "description": "Currently in use at NowInfinity. Anywhere else? A cursory review suggests support from code generation tools such as openapi-generator is sparse, but this probably not sufficient reason to hold off adoption. "
+                    "description": "Class looking into the constraints of HDS in the Class environment. Features such as versioning may need to be implemented before moving to the Trial phase."
                 }
             ]
         },
