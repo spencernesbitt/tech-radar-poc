@@ -106,6 +106,22 @@
             ]
         },
         {
+            "id": "auth0",
+            "title": "Auth0 Identity Platform",
+            "description": "Auth0 is a popular Identity-as-a-Service (IdP) platform that helps developers add authentication and authorization to their applications.",
+            "key": "auth0",
+            "url": "https://auth0.com/",
+            "quadrant": "1",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "trial",
+                    "date": "2025-01-01",
+                    "description": "This technology is being actively used in Hub24 and MyP and is at the PoC stage in NI. We are looking to trial this in Class soon."
+                }
+            ]
+        },
+        {
             "id": "ruby-on-rails",
             "title": "Ruby on Rails",
             "description": "A server-side web application framework written in the Ruby programming language. It's a full-stack framework, meaning it provides tools for both the front-end (user interface) and back-end (database and application logic) development of web applications.",
