@@ -42,11 +42,11 @@
     ],
     "entries": [
         {
-            "id": "amazon-aurora",
+            "id": "",
             "title": "Amazon Aurora - Relational Database SaaS",
             "description": "Aurora is a relational database management system (RDBMS) built for the cloud with full MySQL and PostgreSQL compatibility.",
-            "key": "https://aws.amazon.com/rds/aurora/",
-            "url": "https://www.prequel.co/",
+            "key": "amazon-aurora",
+            "url": "https://aws.amazon.com/rds/aurora/",
             "quadrant": "1",
             "timeline": [
                 {
