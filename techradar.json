@@ -42,6 +42,22 @@
     ],
     "entries": [
         {
+            "id": "digital-rapport",
+            "title": "Digital Rapport",
+            "description": "AI Generated Video for Financial Reporting",
+            "key": "digital-rapport",
+            "url": "https://www.digitalrapport.io/",
+            "quadrant": "2",
+            "timeline": [
+                {
+                    "moved": 0,
+                    "ringId": "assess",
+                    "date": "2025-01-01",
+                    "description": "Evaluation of Digital Rapport to aid Class Financial Reporting"
+                }
+            ]
+        },
+        {
             "id": "open-telemetry",
             "title": "OpenTelemetry",
             "description": "An observability framework and toolkit designed to facilitate the Generation, Export, Collection of telemetry data such as traces, metrics, and logs.",
